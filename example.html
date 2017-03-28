@@ -1,0 +1,25 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>[[PGW Test]]</title>
+<!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+<script src="dist/pgwbrowser.min.js"></script>
+</head>
+<body>
+
+  <h3>PgwBrowser Results</h3>
+  <pre />
+
+</body>
+
+<script type="text/javascript">
+  (function($) {
+    var pgwBrowser = $.pgwBrowser();
+    $('pre').html(JSON.stringify(pgwBrowser, null, 5));
+  })(window.jQuery || window.Zepto);
+</script>
+
+</html>
