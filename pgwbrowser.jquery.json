@@ -16,7 +16,8 @@
     },
     "maintainers": [
         {
-            "name": "Jonathan M. Piat"
+            "name": "Francisco Ruiz",
+            "name": "Daniel M. Hendricks"
         }
     ],
     "licenses": [
@@ -25,7 +26,7 @@
             "url": "http://opensource.org/licenses/gpl-3.0"
         }
     ],
-    "bugs": "https://github.com/Pagawa/PgwBrowser/issues",
+    "bugs": "https://github.com/dmhendricks/PgwBrowser",
     "homepage": "http://pgwjs.com/pgwbrowser",
     "docs": "http://pgwjs.com/pgwbrowser",
     "download": "http://pgwjs.com/pgwbrowser",
