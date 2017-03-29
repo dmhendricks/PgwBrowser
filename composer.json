@@ -1,8 +1,20 @@
 {
     "name": "dmhendricks/PgwBrowser",
     "description": "Browser, OS and viewport detection plugin for jQuery and Zepto.",
+    "version": "1.3.1",
     "license": "GPL-3.0",
     "homepage": "http://pgwjs.com/pgwbrowser",
+    "keywords": [
+            "browser",
+            "os",
+            "platform",
+            "detection",
+            "edge",
+            "mobile",
+            "viewport",
+            "jquery-plugin",
+            "zepto"
+    ],
     "authors": [
         {
             "name": "Jonathan Piat",
@@ -31,5 +43,9 @@
         "source": "https://github.com/dmhendricks/PgwBrowser",
         "docs": "http://pgwjs.com/pgwbrowser",
         "issues": "https://github.com/htmlburger/carbon-fields/issues"
-    }
+    },
+    "files": [
+        "dist",
+        "LICENSE"
+    ]
 }
