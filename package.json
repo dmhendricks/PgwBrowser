@@ -8,7 +8,7 @@
   "contributors": [
     { "name": "Daniel M. Hendricks", "url": "https://www.danhendricks.com" },
     { "name": "Ben Gurney", "url": "https://github.com/bgurney", "email": "ben@webhappens.co.uk" },
-    { "name": "Francisco Ruiz", "url": "https://github.com/kikorb/PgwBrowser", "email": "kikorb@gmail.com" }
+    { "name": "Francisco Ruiz", "url": "https://github.com/kikorb", "email": "kikorb@gmail.com" }
   ],
   "main": "dist/pgwbrowser.js",
   "keywords": [
