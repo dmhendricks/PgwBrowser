@@ -1,6 +1,6 @@
 # PgwBrowser
 
-This is a fork of the PgwBrowser jQuery/Zepto plugin by Jonathan M. Piat, used for detecting a remote browser/version, OS/version and viewport information via the navigator.userAgent property.
+This is a fork of the PgwBrowser jQuery/Zepto plugin by [Jonathan M. Piat](github.com/jonathan-piat), used for detecting a remote browser/version, OS/version and viewport information via the navigator.userAgent property.
 
 Though [feature detection](https://learn.jquery.com/code-organization/feature-browser-detection/) is generally preferred, desperate times (or lack of time) call for desperate measures (particularly when you are trying to hack plugins that you are unable to modify else lose the ability to easily update).
 
@@ -45,7 +45,7 @@ To get the plugin updates, fork it on Github and regularly verify your plugin ve
 	          "version": "master",
 	          "dist": {
 	            "type": "zip",
-	            "url": "https://github.com/dmhendricks/PgwBrowser/archive/1.2.0.zip",
+	            "url": "https://github.com/dmhendricks/PgwBrowser/releases/download/v1.3.1/PgwBrowser-1.3.1.zip",
 	            "reference": "master"
 	          },
 	          "autoload": {
@@ -61,8 +61,7 @@ To get the plugin updates, fork it on Github and regularly verify your plugin ve
 
 ## Requirements
 
-jQuery 1.0 or Zepto.js 1.0 (minimal version)
-
+[jQuery](https://jquery.com/) 1.0 or [Zepto.js](http://zeptojs.com/) 1.0 (minimal version)
 
 Contributing
 ---------
@@ -72,11 +71,12 @@ All issues or pull requests must be submitted through GitHub.
 * To report an issue or a feature request, please use [GitHub Issues](https://github.com/dmhendricks/PgwBrowser/issues).
 * To make a pull request, please create a new branch for each feature or issue.
 
-
 ChangeLog
 ---------
 
-* 2015-03-19 - Added new elements (Version 1.3)
-* 2014-08-17 - Added more browsers and platforms (Version 1.2)
-* 2014-08-03 - Added resize and orientation events (Version 1.1)
-* 2014-08-02 - First commit (Version 1.0)
+* 2017-03-28 - Fixed Edge being incorrectly detected as Chrome
+* 2017-02-02 - Added MacOs Sierra. Fixed bug where El Capitan was detected as Puma [github.com/kikorb]
+* 2015-03-19 - Added new elements (Version 1.3) [github.com/Pagawa]
+* 2014-08-17 - Added more browsers and platforms (Version 1.2) [github.com/Pagawa]
+* 2014-08-03 - Added resize and orientation events (Version 1.1) [github.com/Pagawa]
+* 2014-08-02 - First commit (Version 1.0) [github.com/Pagawa]
