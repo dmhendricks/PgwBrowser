@@ -6,8 +6,9 @@
   "homepage": "http://pgwjs.com/pgwbrowser",
   "license" : "GPL-3.0",
   "contributors": [
-    { "name": "Francisco Ruiz", "url": "https://github.com/kikorb/PgwBrowser" },
-    { "name": "Daniel M. Hendricks", "url": "https://github.com/dmhendricks/PgwBrowser" }
+    { "name": "Daniel M. Hendricks", "url": "https://www.danhendricks.com" },
+    { "name": "Ben Gurney", "url": "https://github.com/bgurney", "email": "ben@webhappens.co.uk" },
+    { "name": "Francisco Ruiz", "url": "https://github.com/kikorb/PgwBrowser", "email": "kikorb@gmail.com" }
   ],
   "main": "dist/pgwbrowser.js",
   "keywords": [
