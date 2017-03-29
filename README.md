@@ -97,13 +97,13 @@ Please support [humans.txt](http://humanstxt.org/). It's an initiative for knowi
 
 **Original PgwBrowser Code:**
 
-	URL: http://pgwjs.com/pgwbrowser/
-	Author: Jonathan Piat (https://github.com/jonathan-piat)
-	LinkedIn: https://www.linkedin.com/in/pagawa/
+    URL: http://pgwjs.com/pgwbrowser/
+    Author: Jonathan Piat (https://github.com/jonathan-piat)
+    LinkedIn: https://www.linkedin.com/in/pagawa/
 
 **Mobile Detection**
 
-	URL: http://detectmobilebrowsers.com
-	Author: Chad Smith (https://github.com/chadsmith)
-	Twitter: @chadsmith
-  Donate: http://detectmobilebrowsers.com/donate
+    URL: http://detectmobilebrowsers.com
+    Author: Chad Smith (https://github.com/chadsmith)
+    Twitter: @chadsmith
+    Donate: http://detectmobilebrowsers.com/donate
