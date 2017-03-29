@@ -45,7 +45,7 @@ To get the plugin updates, fork it on Github and regularly verify your plugin ve
 	          "version": "master",
 	          "dist": {
 	            "type": "zip",
-	            "url": "https://github.com/dmhendricks/PgwBrowser/releases/download/v1.3.1/PgwBrowser-1.3.1.zip",
+	            "url": "https://github.com/dmhendricks/PgwBrowser/releases/download/1.3.1/PgwBrowser-1.3.1.zip",
 	            "reference": "master"
 	          },
 	          "autoload": {
