@@ -74,7 +74,7 @@ All issues or pull requests must be submitted through GitHub.
 ChangeLog
 ---------
 
-* 2017-03-28 - Fixed Edge being incorrectly detected as Chrome
+* 2017-03-28 - Fixed Edge being incorrectly detected as Chrome (Version 1.3.1)
 * 2017-02-02 - Added MacOs Sierra. Fixed bug where El Capitan was detected as Puma [github.com/kikorb]
 * 2015-03-19 - Added new elements (Version 1.3) [github.com/Pagawa]
 * 2014-08-17 - Added more browsers and platforms (Version 1.2) [github.com/Pagawa]
