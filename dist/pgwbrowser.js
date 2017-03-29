@@ -1,10 +1,9 @@
 /**
- * PgwBrowser - Version 1.3
+ * PgwBrowser - Version 1.3.1
+ * Copyright 2014-2015, Jonathan M. Piat - http://pgwjs.com - http://pagawa.com
+ * Fork by Daniel M. Hendricks [https://github.com/dmhendricks/PgwBrowser]
  *
- * Copyright 2014-2015, Jonathan M. Piat
- * http://pgwjs.com - http://pagawa.com
- *
- * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
+ * @license GPL-3.0 [http://opensource.org/licenses/gpl-3.0]
  */
 ;(function($){
     $.pgwBrowser = function() {
@@ -19,6 +18,7 @@
         // The order of the following arrays is important, be careful if you change it.
 
         var browserData = [
+            { name: 'Edge',              group: 'Explorer', identifier: 'Edge/([0-9\.]*)',          versionIdentifier: 'Edge/([0-9\.]*)' },
             { name: 'Chromium',          group: 'Chrome',   identifier: 'Chromium/([0-9\.]*)'       },
             { name: 'Chrome Mobile',     group: 'Chrome',   identifier: 'Chrome/([0-9\.]*) Mobile', versionIdentifier: 'Chrome/([0-9\.]*)'},
             { name: 'Chrome',            group: 'Chrome',   identifier: 'Chrome/([0-9\.]*)'         },
@@ -32,7 +32,6 @@
             { name: 'IEMobile',          group: 'Explorer', identifier: 'IEMobile/([0-9\.]*)'       },
             { name: 'Internet Explorer', group: 'Explorer', identifier: 'MSIE ([a-zA-Z0-9\.]*)'     },
             { name: 'Internet Explorer', group: 'Explorer', identifier: 'Trident/([0-9\.]*)',       versionIdentifier: 'rv:([0-9\.]*)' },
-            { name: 'Spartan',           group: 'Spartan',  identifier: 'Edge/([0-9\.]*)',          versionIdentifier: 'Edge/([0-9\.]*)' },
             { name: 'Safari',            group: 'Safari',   identifier: 'Safari/([0-9\.]*)',        versionIdentifier: 'Version/([0-9\.]*)' }
         ];
 
