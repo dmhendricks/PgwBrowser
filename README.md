@@ -72,9 +72,38 @@ All issues or pull requests must be submitted through GitHub.
 
 ## Changelog
 
+**New Commits**
+
+* 2017-03-29 - Added initial/experimental `device.type` property, returns values "mobile" or "desktop" for now, with more features and support planned.
+
+**Release 1.3.1**
+
 * 2017-03-28 - Fixed Edge being incorrectly detected as Chrome (Version 1.3.1)
 * 2017-02-02 - Added MacOs Sierra. Fixed bug where El Capitan was detected as Puma [github.com/kikorb]
+
+**Release 1.3**
+
 * 2015-03-19 - Added new elements (Version 1.3) [github.com/Pagawa]
+
+**Release <=1.2**
+
 * 2014-08-17 - Added more browsers and platforms (Version 1.2) [github.com/Pagawa]
 * 2014-08-03 - Added resize and orientation events (Version 1.1) [github.com/Pagawa]
 * 2014-08-02 - First commit (Version 1.0) [github.com/Pagawa]
+
+## Credits
+
+Please support [humans.txt](http://humanstxt.org/). It's an initiative for knowing the people behind a web site. It's an unobtrusive text file that contains information about the different people who have contributed to building the web site.
+
+**Original PgwBrowser Code:**
+
+	URL: http://pgwjs.com/pgwbrowser/
+	Author: Jonathan Piat (https://github.com/jonathan-piat)
+	LinkedIn: https://www.linkedin.com/in/pagawa/
+
+**Mobile Detection**
+
+	URL: http://detectmobilebrowsers.com
+	Author: Chad Smith (https://github.com/chadsmith)
+	Twitter: @chadsmith
+  Donate: http://detectmobilebrowsers.com/donate
