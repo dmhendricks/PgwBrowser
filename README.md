@@ -74,7 +74,7 @@ All issues or pull requests must be submitted through GitHub.
 
 **New Commits**
 
-* 2017-03-29 - Added initial/experimental `device.type` property, returns values "mobile" or "desktop" for now, with more features and support planned.
+* 2017-03-29 - Added experimental `device.type` string property and `device.mobile` boolean property
 
 **Release 1.3.1**
 

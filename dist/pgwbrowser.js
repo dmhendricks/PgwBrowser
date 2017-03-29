@@ -220,6 +220,7 @@
         // Set device type (currently, mobile or desktop)
         var setDeviceType = function() {
           pgwBrowser.device.type = $.browser.mobile ? 'mobile' : 'desktop';
+          pgwBrowser.device.mobile = $.browser.mobile;
         }
 
         // Set viewport orientation
