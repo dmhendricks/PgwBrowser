@@ -1,0 +1,35 @@
+{
+    "name": "dmhendricks/PgwBrowser",
+    "description": "Browser, OS and viewport detection plugin for jQuery and Zepto.",
+    "license": "GPL-3.0",
+    "homepage": "http://pgwjs.com/pgwbrowser",
+    "authors": [
+        {
+            "name": "Jonathan Piat",
+            "homepage": "https://www.linkedin.com/in/pagawa/",
+            "role": "Developer"
+        },
+        {
+            "name": "Daniel M. Hendricks",
+            "homepage": "https://www.danhendricks.com/",
+            "role": "Contributor"
+        },
+        {
+            "name": "Francisco Ruiz",
+            "email": "kikorb@gmail.com",
+            "homepage": "https://github.com/kikorb/",
+            "role": "Contributor"
+        },
+        {
+            "name": "Ben Gurney",
+            "email": "ben@webhappens.co.uk",
+            "homepage": "https://github.com/bgurney",
+            "role": "Contributor"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/dmhendricks/PgwBrowser",
+        "docs": "http://pgwjs.com/pgwbrowser",
+        "issues": "https://github.com/htmlburger/carbon-fields/issues"
+    }
+}
