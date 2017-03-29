@@ -1,6 +1,12 @@
 # PgwBrowser
 
-The full documentation and an example are available on [pgwjs.com/pgwbrowser](http://pgwjs.com/pgwbrowser/).
+This is a fork of the PgwBrowser jQuery/Zepto plugin by Jonathan M. Piat, used for detecting a remote browser/version, OS/version and viewport information via the navigator.userAgent property.
+
+Though [feature detection](https://learn.jquery.com/code-organization/feature-browser-detection/) is generally preferred, desperate times (or lack of time) call for desperate measures (particularly when you are trying to hack plugins that you are unable to modify else lose the ability to easily update).
+
+Original documentation and an example are available on [pgwjs.com/pgwbrowser](http://pgwjs.com/pgwbrowser/).
+
+**Testers Needed:** If anyone has access to BrowserStack and/or notices an issue, please post it.
 
 ## Installation
 
