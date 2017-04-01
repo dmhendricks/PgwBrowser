@@ -40,18 +40,18 @@ To get the plugin updates, fork it on Github and regularly verify your plugin ve
 
 	"repositories": [
 	    {
-    	    "type": "package",
-	        "package": {
-	          "name": "dmhendricks/PgwBrowser",
-	          "version": "master",
-	          "dist": {
-	            "type": "zip",
-	            "url": "https://github.com/dmhendricks/PgwBrowser/releases/download/1.3.1/PgwBrowser-1.3.1.zip",
-	            "reference": "master"
-	          },
-	          "autoload": {
-	              "classmap": ["."]
-	          }
+        "type": "package",
+        "package": {
+          "name": "dmhendricks/PgwBrowser",
+          "version": "master",
+          "dist": {
+            "type": "zip",
+            "url": "https://github.com/dmhendricks/PgwBrowser/releases/download/1.3.1/PgwBrowser-1.3.1.zip",
+            "reference": "master"
+          },
+          "autoload": {
+            "classmap": ["."]
+          }
 	      }
 	    }
 	],
