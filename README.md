@@ -32,7 +32,8 @@ To get the plugin updates, fork it on Github and regularly verify your plugin ve
 	    }
 	],
 	"require": {
-	    "dmhendricks/PgwBrowser": "~1.3"
+	    "dmhendricks/PgwBrowser": "~1.3",
+      "composer/installers": "*"
 	}
 
 **Distribution ZIP:**
@@ -55,7 +56,8 @@ To get the plugin updates, fork it on Github and regularly verify your plugin ve
 	    }
 	],
 	"require": {
-	  "dmhendricks/PgwBrowser": "dev-master"
+	  "dmhendricks/PgwBrowser": "dev-master",
+    "composer/installers": "*"
 	}
 
 
