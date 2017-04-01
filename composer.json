@@ -42,7 +42,7 @@
     "support": {
         "source": "https://github.com/dmhendricks/PgwBrowser",
         "docs": "http://pgwjs.com/pgwbrowser",
-        "issues": "https://github.com/htmlburger/carbon-fields/issues"
+        "issues": "https://github.com/dmhendricks/PgwBrowser/issues"
     },
     "files": [
         "dist",
