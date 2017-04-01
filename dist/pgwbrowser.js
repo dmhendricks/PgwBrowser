@@ -16,8 +16,9 @@
         var pgwBrowser = {};
         pgwBrowser.userAgent = navigator.userAgent;
         pgwBrowser.device = {};
-        pgwBrowser.browser = {};
+        pgwBrowser.display = {};
         pgwBrowser.viewport = {};
+        pgwBrowser.browser = {};
         pgwBrowser.os = {};
         resizeEvent = null;
 
@@ -218,9 +219,22 @@
         };
 
         // Set device type (currently, mobile or desktop)
-        var setDeviceType = function() {
+        var setDeviceData = function() {
+          // Set device type and detect if mobile
           pgwBrowser.device.type = $.browser.mobile ? 'mobile' : 'desktop';
           pgwBrowser.device.mobile = $.browser.mobile;
+
+          // Set display properties
+          pgwBrowser.display.touch = (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0));
+
+          var devicePixelRatio = window.devicePixelRatio.round(2);
+          var imageSizeMultiplier = Math.round(devicePixelRatio)-1 || 1;
+
+          pgwBrowser.display.hires = devicePixelRatio >= 1.3;
+          pgwBrowser.display.retina = devicePixelRatio == 2;
+          pgwBrowser.display.pixelRatio = devicePixelRatio;
+          pgwBrowser.display.imageSizeMultiplier = Math.round(devicePixelRatio);
+
         }
 
         // Set viewport orientation
@@ -261,7 +275,7 @@
         setOsData();
         setViewportSize(true);
         setViewportOrientation();
-        setDeviceType();
+        setDeviceData();
 
         // Triggers
         $(window).on('orientationchange', function(e) {
@@ -275,6 +289,11 @@
         return pgwBrowser;
     }
 })(window.Zepto || window.jQuery);
+
+/* Helper Functions */
+Number.prototype.round = function(places) {
+  return +(Math.round(this + "e+" + places)  + "e-" + places);
+}
 
 
 /** @preserve

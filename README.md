@@ -74,6 +74,7 @@ All issues or pull requests must be submitted through GitHub.
 
 **New Commits**
 
+* 2017-03-31 - Added `display.touch` (Boolean), `display.hires` (Boolean), `display.retina` (Boolean), `display.pixelRatio` (Number) and `display.imageSizeMultiplier` (Number) properties
 * 2017-03-29 - Added experimental `device.type` string property and `device.mobile` boolean property
 
 **Release 1.3.1**
